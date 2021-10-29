@@ -2,4 +2,4 @@
 Incomplete test coverage
 --------------------------------------------------------------------------------
 
-100% test coverage. You're all set, friend!
+/spec/lib/gretel/view_helpers_spec.rb: 99.65% (missed: 174)

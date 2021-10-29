@@ -1,6 +1,7 @@
 require 'gretel/version'
 require 'gretel/resettable'
 require 'gretel/railtie'
+require 'gretel/route_crumbs_generator'
 
 module Gretel
   class << self
