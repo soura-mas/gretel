@@ -3,6 +3,8 @@ Description:
 
 Example:
   rails generate gretel:install
+  or
+  rails generate gretel:install --from-routes --link-text-attr-name name
 
   This will create:
     config/breadcrumbs.rb

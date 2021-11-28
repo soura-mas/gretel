@@ -31,6 +31,12 @@ Start by generating breadcrumbs configuration file:
 $ rails generate gretel:install
 ```
 
+If you specify the `--from-routes` option, breadcrumbs configuration file will be generated from *config/routes.rb*.  
+(Please check the `--help` option for details.)
+```bash
+$ rails generate gretel:install --from-routes
+```
+
 Then, in *config/breadcrumbs.rb*:
 
 ```ruby
